@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"
+      integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ=="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css">
+  </head><link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+  <body>
+    <div class="wrap">
+      <div class="form">
+        <input type="text" placeholder="Email" id="loginInfo" />
+        <input type="text" placeholder="password" id="passwordInfo" />
+        <button id="signIn">Sign in</button>
+
+        <div class="explain">
+            <div class="row">
+                <div class="done smallL"></div>
+                <p>Пароль містить літери малого регісту</p>
+            </div>
+            <div class="row">
+                <div class="done length"></div>
+                <p>Довжина паролю більше 6 знаків і менше 20</p>
+            </div>
+            <div class="row">
+                <div class="done bigL"></div>
+                <p>Пароль містить літери великого регісту</p>
+            </div>
+            <div class="row">
+                <div class="done numb"></div>
+                <p>Пароль містить цифри</p>
+            </div>
+            <div class="row">
+                <div class="done symb"></div>
+                <p>Пароль містить спеціальні символи</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
